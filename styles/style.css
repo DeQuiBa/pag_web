@@ -485,3 +485,24 @@ nav {
     width: 100%;
     height: 100%;
 }
+
+.imagenes-comparacion {
+    display: flex;
+    justify-content: space-between; /* Distribuye las imágenes a los lados */
+    align-items: center;
+    gap: 20px; /* Espacio entre imágenes */
+    max-width: 800px; /* Ajusta según tu diseño */
+    margin: 0 auto; /* Centra el bloque */
+}
+
+.imagenes-comparacion figure {
+    flex: 1; /* Para que ambas imágenes tengan el mismo tamaño */
+    text-align: center; /* Centra el texto debajo de cada imagen */
+}
+
+.imagenes-comparacion img {
+    width: 100%; /* Asegura que ocupen el mismo espacio */
+    max-width: 350px; /* Ajusta el tamaño máximo */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2); /* Sombra ligera */
+}
